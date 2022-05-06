@@ -1,0 +1,13 @@
+spring :
+  main :
+    banner-mode : console # banner 출력
+  jpa :
+    properties :
+      hibernate :
+        "[format_sql]" : true # sql 정렬 옵션
+
+# logging
+logging :
+  level :
+    com :
+      fyo : debug
